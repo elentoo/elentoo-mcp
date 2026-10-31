@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.elentoo/elentoo",
+  "title": "Elentoo",
+  "description": "Antibody pricing across vendors — normalized $/µg, clone identity, flow-panel pricing. No guesses.",
+  "repository": {
+    "url": "https://github.com/elentoo/elentoo-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.elentoo.com"
+    }
+  ]
+}
