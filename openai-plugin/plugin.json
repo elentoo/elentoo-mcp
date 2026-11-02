@@ -10,16 +10,26 @@
   },
   "homepage": "https://elentoo.com",
   "repository": "https://github.com/elentoo/elentoo-mcp",
-  "keywords": ["antibodies", "reagents", "pricing", "research", "flow cytometry"],
+  "keywords": [
+    "antibodies",
+    "reagents",
+    "pricing",
+    "research",
+    "flow cytometry"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Elentoo",
-        "shortDescription": "Antibody pricing across vendors, normalized per µg.",
+        "shortDescription": "Antibody prices across vendors",
         "longDescription": "Search the Elentoo antibody index by target, clone, or catalog number and compare real list prices across vendors in normalized dollars per µg. Get per-clone pricing, price entire flow-cytometry panels, and see which vendors carry a specific clone and conjugate. Elentoo reports exactly what its index contains — if nothing matches, it says so instead of guessing.",
         "developerName": "Elentoo, LLC",
-        "category": "Research",
-        "capabilities": ["Search antibody pricing", "Compare vendors", "Price flow panels"],
+        "category": "Scientific Research",
+        "capabilities": [
+          "Search antibody pricing",
+          "Compare vendors",
+          "Price flow panels"
+        ],
         "websiteURL": "https://elentoo.com",
         "supportURL": "https://elentoo.com/about",
         "privacyPolicyURL": "https://elentoo.com/privacy",
@@ -27,11 +37,10 @@
         "defaultPrompt": [
           "Which vendors sell CD4 clone RM4-5, and what's the cheapest per µg?",
           "Price my flow panel: CD4 RM4-5 PE, CD44 IM7 APC, CD8a 53-6.7 FITC.",
-          "Is catalog number 96127S in the index? What does it cost per µg?",
-          "Does anyone carry IM7 conjugated to PE/Cyanine7?"
+          "Is catalog number 96127S in the index? What does it cost per µg?"
         ],
-        "brandColor": "#00D4FF",
-        "brandColorDark": "#0052CC",
+        "brandColor": "#0052CC",
+        "brandColorDark": "#00D4FF",
         "composerIcon": "./assets/composer-icon.png",
         "composerIconDark": "./assets/composer-icon-dark.png",
         "logo": "./assets/logo.png",
@@ -95,7 +104,9 @@
         "commerce_description": "This plugin does not sell products or process payments."
       },
       "publication": {
-        "countries": ["US"],
+        "countries": [
+          "US"
+        ],
         "release_notes": "Initial release: search reagents, per-clone pricing, and flow-panel pricing across the Elentoo antibody index."
       }
     }
